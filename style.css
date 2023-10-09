@@ -125,3 +125,83 @@ h1 {
   width: 100%;
   text-align: center;
 }
+
+@media screen and (max-width: 844px) and (max-height: 390px){
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+ 
+  main {
+    height: 65vh;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .number {
+    font-size: 10rem;
+    width: 25rem;
+    padding: 1rem;
+  }
+  .between {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+  }
+
+  .again {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .footer__copyright{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 915px) and (max-height: 412px){
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 40.5%;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  .number {
+    font-size: 10rem;
+    width: 25rem;
+    padding: 1rem;
+  }
+  .between {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 3rem;
+  }
+
+  .footer__copyright{
+    font-size: 1.5rem;
+  }
+}
